@@ -12,6 +12,7 @@ $(document).ready(function () {
 
 		//add css to head
 		// var linkElement = ("static/css/main.min.css" !== undefined) ? "<link href='static/css/main.min.css' rel='stylesheet'  type='text/css'>" : "<link href='static/css/main.css' rel='stylesheet'  type='text/css'>";
+
 		var linkElement = "<link href='static/css/main.min.css' rel='stylesheet'  type='text/css'>" ;
 
 		 $("head").append(linkElement);
