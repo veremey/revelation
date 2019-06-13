@@ -1,0 +1,43 @@
+
+<div class="section hero">
+	<div class="section__bg">
+		<picture>
+			<source srcset="static/img/content/hero.webp "
+			        type="image/webp">
+			<img src="static/img/content/hero.jpg" alt="autor" class="section__img">
+		</picture>
+	</div>
+	<div class="layout">
+		<div class="hero__content">
+			<div class="hero__place">
+				<h4 class="title__p" role="heading" aria-level="4">
+					Бесплатный вебинар
+				</h4>
+				<p>ХХ июня 20.00 МСК/Киев</p>
+			</div>
+			<div class="hero__who">
+				<h1 class="title__main" role="heading" aria-level="1">Откровения <mark>Димы Ковпака</mark></h1>
+				<ul class="hero__list">
+					<li>впервые расскажу, каким бизнесом я сейчас занимаюсь </li>
+					<li>в прямом эфире выберу 3-х победителей Большой Игры</li>
+					<li>расскажу, как сделать первые шаги в бизнесе с Китаем</li>
+				</ul>
+			</div>
+			<form action="/" method="post" class="hero__form js-validate">
+				<fieldset class="hero__fieldset">
+					<input class="email" type="email" name="email" id="email" placeholder="E-Mail">
+					<button class="btn btn-red">Зарегистрироваться</button>
+				</fieldset>
+				<fieldset class="hero__fieldset">
+					<label class="check" for="p-check" >
+						<input type="checkbox" id="p-check">
+						<span>Напомнить мне о вебинаре с помощью SMS</span>
+					</label>
+				</fieldset>
+				<fieldset class="hero__fieldset phone" style="display: none">
+					<input class="tel" type="tel" name="tel" id="tel" placeholder="" >
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</div>

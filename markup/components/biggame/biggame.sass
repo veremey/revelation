@@ -1,0 +1,54 @@
+
+.biggame
+	padding: 190px 0 80px
+	+r(850)
+		padding: 120px 0 40px
+	+r(540)
+		padding-top: 170px
+	&__list
+		margin-top: 50px
+		margin-left: -40px
+		padding: 0
+		font-size: 0
+		list-style: none
+		display: flex
+		justify-content: center
+		+r(850)
+			flex-wrap: wrap
+		+r(500)
+			margin-left: 0
+		li
+			display: inline-block
+			vertical-align: top
+			position: relative
+			margin-left: 40px
+			padding-left: 10px
+			+r(850)
+				margin-bottom: 20px
+			+r(500)
+				margin-left: 0
+				display: block
+				width: 100%
+			&:after
+				content: ''
+				position: absolute
+				top: 0
+				left: 0
+				width: 4px
+				height: 46px
+				background-color: $red
+				+r(650)
+					height: 40px
+		h4
+			font-size: 30px
+			line-height: .8
+			margin-bottom: 6px
+			color: $black
+			+mbl
+			+r(650)
+				font-size: 24px
+		p
+			font-size: 14px
+			text-transform: lowercase
+			color: $black
+			+mr

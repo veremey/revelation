@@ -1,0 +1,24 @@
+
+.pref
+	padding: 80px 0 80px
+	position: relative
+	overflow: hidden
+	.section__bg
+		+r(850)
+			&:after
+				content: ''
+				+coverdiv
+				background-color: rgba(255, 255, 255, .4)
+	.section__img
+		top: 0
+		left: 100%
+		transform: translate(-100%, 0%)
+		min-width: 0
+	.check
+		padding-left: 30px
+		span
+			color: $black
+	.email,
+	.tel
+		+r(850)
+			box-shadow: 0 0 3px rgba(0, 0, 0, .4)

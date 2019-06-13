@@ -1,0 +1,25 @@
+
+// see comein component
+
+.youknow
+	padding: 100px 0 70px
+	.comein
+		margin-bottom: 30px
+		li
+			background-color: $yellow
+			&:first-of-type
+				border-radius: 10px 0 0 10px
+				+r(768)
+					border-radius: 0
+			&:last-of-type
+				border-radius: 0 10px 10px 0
+				+r(768)
+					border-radius: 0
+		p
+			text-transform: uppercase
+			color: $black
+		strong
+			+mb
+		img
+			max-height: 58px
+			margin-bottom: 16px
